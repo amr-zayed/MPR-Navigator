@@ -1,0 +1,46 @@
+.toolbar{
+    display: flex;
+    justify-content: center;
+    margin: 40px;
+}
+
+.circle{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    border: solid #3565F2;
+    border-radius: 10px;
+    border-width: thin;
+    
+    background-color: #0D0D0D;
+    position: relative;
+    
+    width: fit-content;
+    height: 60px;
+    margin: 5px;
+    padding: 0 20px;
+    
+    box-shadow: 2px 2px 5px #3564f27a;
+    
+    font-size: 24px;
+    font-weight: 100;
+    color: #2947F2 !important;
+}
+.circle:hover{
+    box-shadow: none;
+}
+
+.circle:active{
+    background-color: #242424;
+}
+
+.circle:disabled{
+    background-color: #24242480;
+    border: solid #3564f249;
+    box-shadow: none;
+    
+}
+
+.icon-container{
+}
